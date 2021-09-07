@@ -196,7 +196,7 @@ body {
 }
 
 h3 {
-    color: black;
+    color: gray;
     text-decoration: none;
     font-size: 16px;
     line-height: 25px;
@@ -207,6 +207,7 @@ h3 {
 ul li{
     padding: 3px;
     margin-left: 1000px;
+    color: gray;
   }
 
 h4 {
@@ -224,6 +225,41 @@ h5 {
     font-size: 27px;
     line-height: 25px;
     border-radius: 4px;
+}
+
+h6 {
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 22px;
+    margin: unset;
+}
+
+h7 {
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 22px;
+}
+
+h8 {
+    color: black;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 22px;
+    margin-top: 410px;
+}
+
+.center iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 /*-----------------------------------------------------------------
 -------------------------------------------------------------------*/
